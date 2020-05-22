@@ -14,6 +14,9 @@ const options = {
     osram: {
         manufacturerCode: 0x110c,
     },
+    jennicdiy: {
+        manufacturerCode: 4151,
+    },
     eurotronic: {
         manufacturerCode: 4151,
     },

@@ -710,6 +710,15 @@ const devices = [
         toZigbee: [],
     },
     {
+        zigbeeModel: ['DualTempSensor'],
+        model: 'DualTempSensor',
+        vendor: 'JennicDIY',
+        description: 'DIY JN5169 Dual temprature sensor, for Joost',
+        supports: 'temperature and humidity',
+        fromZigbee: [fz.temperature],
+        toZigbee: [],
+    },
+    {
         zigbeeModel: ['lumi.weather'],
         model: 'WSDCGQ11LM',
         vendor: 'Xiaomi',
